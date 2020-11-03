@@ -22,13 +22,13 @@ function Header() {
                         <span className="header__OptionLineTwo">Sign In</span>
                     </div>
                 </Link>
-                <Link to="/login" className="header__link">
+                <Link to="/" className="header__link">
                     <div className="header__option">
                         <span className="header__OptionLineOne">Returns</span>
                         <span className="header__OptionLineTwo">& Orders</span>
                     </div>
                 </Link>
-                <Link to="/login" className="header__link">
+                <Link to="/" className="header__link">
                     <div className="header__option">
                         <span className="header__OptionLineOne">Your</span>
                         <span className="header__OptionLineTwo">PRIME</span>
