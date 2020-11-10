@@ -1,18 +1,5 @@
 export const initialState = {
-    basket: [{
-        id: "123456",
-        title: "The Monk Who Sold His Ferrari",
-        price: 3,
-        rating: 4,
-        image: "https://images-na.ssl-images-amazon.com/images/I/410BqHSamiL._SX322_BO1,204,203,200_.jpg"
-    },
-    {
-        id: "123456",
-        title: "The Monk Who Sold His Ferrari",
-        price: 3,
-        rating: 4,
-        image: "https://images-na.ssl-images-amazon.com/images/I/410BqHSamiL._SX322_BO1,204,203,200_.jpg"
-    }]
+    basket: []
 };
 
 export const getBasketTotal = (basket) => basket?.reduce((amount, item) => item.price + amount, 0)
