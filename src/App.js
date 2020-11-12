@@ -32,10 +32,10 @@ function App() {
     }
   }, [])
 
-  console.log(user)
+
 
   return (
-    < Router >
+    <Router>
       <div className="app">
         <Switch>
           <Route path="/checkout">
@@ -45,13 +45,13 @@ function App() {
           <Route path="/login">
             <Login />
           </Route>
-          <Router path="/">
+          <Route path="/">
             <Header />
             <Home />
-          </Router>
+          </Route>
         </Switch>
       </div>
-    </Router >
+    </Router>
 
   );
 }
